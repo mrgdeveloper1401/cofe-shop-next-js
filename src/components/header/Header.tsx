@@ -5,7 +5,7 @@ import TopBar from "./TopBar";
 // components/Layout/Header.tsx main header
 export default function Header(){
     return (
-        <header>
+        <header className="main-header">
             <PromotionBar/>
             <TopBar/>
             <Navigation/>

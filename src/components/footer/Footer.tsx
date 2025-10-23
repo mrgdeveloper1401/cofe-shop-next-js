@@ -1,22 +1,18 @@
-import CopyWrite from "./CopyWrite";
-import DescriptionFooter from "./DescriptionFooter";
-import Enemad from "./Enemad";
-import FooterLink from "./FooterLink";
-import Guarantee from "./Guarantee";
-import NewsLatter from "./NewsLatter";
-import Social from "./Scoial";
+import FooterCopyWrite from "./FooterCopyWrite";
+import FooterDescription from "./FooterDescription";
+import FooterInfo from "./FooterInfo";
+import FooterService from "./FooterService";
+import FooterWidgets from "./FooterWidgets";
 
 export default function Footer(){
     return (
         <div>
-            <footer>
-                <Guarantee/>
-                <FooterLink/>
-                <NewsLatter/>
-                <Social/>
-                <DescriptionFooter/>
-                <Enemad/>
-                <CopyWrite/>
+            <footer className="main-footer dt-sl">
+                <FooterService/>
+                <FooterInfo/>
+                <FooterWidgets/>
+                <FooterDescription/>
+                <FooterCopyWrite/>
             </footer>
         </div>
     )

@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function AmazingProduct() {
+export default function AmazingOffer() {
   return (
-    <section className="slider-section mb-5 amazing-section" style={{ background: "#ef394e" }}>
+    <section className="slider-section mb-5 amazing-section" style={{ background: "#304ffe" }}>
       <div className="container main-container">
         <div className="row mb-3">
           {/* Start Product-Slider */}
@@ -18,26 +18,6 @@ export default function AmazingProduct() {
                     width: '1610px' 
                   }}
                 >
-                  {/* Amazing Product Banner */}
-                  <div className="owl-item active" style={{ width: '220px', marginLeft: '10px' }}>
-                    <div className="item">
-                      <div className="amazing-product text-center pt-5">
-                        <Link href="#">
-                          <Image 
-                            src="/assets/img/theme/amazing-1.png" 
-                            alt="Amazing Offer" 
-                            width={150}
-                            height={150}
-                            className="mx-auto"
-                          />
-                        </Link>
-                        <Link href="#" className="view-all-amazing-btn">
-                          مشاهده همه
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
                   {/* Product 1 */}
                   <div className="owl-item active" style={{ width: '220px', marginLeft: '10px' }}>
                     <div className="item">
