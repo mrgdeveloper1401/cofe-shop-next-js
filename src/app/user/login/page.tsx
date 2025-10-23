@@ -1,3 +1,7 @@
+import Login from "@/components/user/login/Login";
+
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>
+  return (
+    <Login/>
+  )
 }

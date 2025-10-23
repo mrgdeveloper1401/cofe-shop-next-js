@@ -30,21 +30,21 @@ export default function RootLayout({
                 <meta name="apple-mobile-web-app-status-bar-style" content="#f7858d"/>
                 <title>didikala | Index Page</title>
                 {/*  Font Icon */}
-                <link rel="stylesheet" href="./assets/css/vendor/font-awesome.min.css"/>
-                <link rel="stylesheet" href="./assets/css/vendor/materialdesignicons.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/font-awesome.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/materialdesignicons.min.css"/>
                 {/* Bootstrap */}
-                <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css"/>
                 {/* Plugins */}
-                <link rel="stylesheet" href="./assets/css/vendor/bootstrap-slider.min.css"/>
-                <link rel="stylesheet" href="./assets/css/vendor/owl.carousel.min.css"/>
-                <link rel="stylesheet" href="./assets/css/vendor/jquery.horizontalmenu.css"/>
-                <link rel="stylesheet" href="./assets/css/vendor/jquery-stack-menu.min.css"/>
-                <link rel="stylesheet" href="./assets/css/vendor/fancybox.min.css"/>
-                <link rel="stylesheet" href="./assets/css/vendor/nice-select.css"/>
-                <link rel="stylesheet" href="./assets/css/vendor/nouislider.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/bootstrap-slider.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/owl.carousel.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/jquery.horizontalmenu.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/jquery-stack-menu.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/fancybox.min.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/nice-select.css"/>
+                <link rel="stylesheet" href="/assets/css/vendor/nouislider.min.css"/>
                 {/*  Main CSS File */}
-                <link rel="stylesheet" href="./assets/css/main.css"/>
-                <link rel="stylesheet" href="./assets/css/colors/default.css" id="colorswitch"></link>
+                <link rel="stylesheet" href="/assets/css/main.css"/>
+                <link rel="stylesheet" href="/assets/css/colors/default.css" id="colorswitch"></link>
             </head>
             <body>
                 {children}
